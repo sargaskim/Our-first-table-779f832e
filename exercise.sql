@@ -1,5 +1,3 @@
-mysql> USE sterrenstelsel
-Database changed
-
-shell> mysql -h host -u user -p sterrenstelsel
-Enter password: sterrenstelsel
+ CREATE DATABASE sterrenstelsel;
+USE sterrenstelsel;
+CREATE TABLE planeten (name varchar(10));
